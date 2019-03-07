@@ -1,0 +1,111 @@
+.container_header {
+    margin-top: 65px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header .hamburger {
+    height: 30px;
+}
+
+.hamburger {
+    margin-right: 20px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center; 
+    align-content: center;
+    margin-left: 565px; 
+}
+
+.container_bloc1 {
+    width: 35%; 
+    height: 600px;
+    background-image: url(../images/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 130px; 
+    margin-top: 30px; 
+    color: transparent;
+}
+
+.container_bloc1:hover {
+    color: white;
+    filter: grayscale(1);
+}
+
+.container_bloc2 {
+    width: 42%; 
+    height: 390px;
+    background-image: url(../images/orchestre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px; 
+    position: absolute;
+    top: 58px;
+    left: 615px; 
+}
+
+.container_bloc3 {
+    width: 42%; 
+    height: 700px;
+    background-image: url(../images/fmr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 150px; 
+    margin-top: 30px; 
+    position: absolute;
+    top: 495px;
+    left: 615px; 
+}
+
+.container_bloc4 {
+    width: 35%; 
+    height: 390px;
+    background-image: url(../images/ibushirt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px; 
+    position: absolute;
+    top: 698px;
+    left: 138px; 
+}
+
+.container_bloc5 {
+    width: 35%; 
+    height: 500px;
+    background-image: url(../images/briquet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 150px; 
+    margin-top: 30px; 
+    position: absolute;
+    top: 1208px;
+    left: 140px; 
+}
+
+.container_bloc6 {
+    width: 42%; 
+    height: 390px;
+    background-image: url(../images/creativeawards.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 150px; 
+    margin-top: 30px; 
+    position: absolute;
+    top: 1255px;
+    left: 615px; 
+}
