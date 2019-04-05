@@ -30,6 +30,11 @@ h1 {
     margin-left: 565px; 
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .container_1 {
     width: 35%; 
@@ -39,7 +44,6 @@ h1 {
     background-size: cover;
     margin-left: 130px; 
     margin-top: 30px; 
-    color: transparent;
     z-index: 0;
     background-position: center;
 }
@@ -57,26 +61,32 @@ h1 {
     font-size: 35px;
     position: relative;
     z-index: 1;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.hover1 a {
+    color: transparent !important;
 }
 
 .hover1:hover {
-    background-color: #c90000;
+    background-color: rgb(179, 18, 42);;
     color: white;
     font-size: 35px;
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
     transition: 1s;
-    display: flex;
-    align-content: center;
-    align-items: center;
+}
+
+.hover1:hover a {
+    color: white !important;
+    transition: 1s;
 }
 
 .airfrance_link {
     width: 100%; 
-    height: 600px;
-    margin-left: -354px; 
-    margin-top: 0px;
 }
 
 .container_2 {
@@ -89,7 +99,6 @@ h1 {
     position: absolute;
     top: 58px;
     left: 615px; 
-    color: transparent;
     z-index: 0;
 } 
 
@@ -105,15 +114,32 @@ h1 {
     font-size: 35px;
     position: relative;
     z-index: 1;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.hover2 a {
+    color: transparent !important;
 }
 
 .hover2:hover {
     background-color: darkgrey;
-    background-image: none; 
     color: white;
-    text-align: center;
     font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
     transition: 1s;
+}
+
+.hover2:hover a {
+    color: white !important;
+    transition: 1s;
+}
+
+.orchestre_link {
+    width: 100%;
 }
 
 .container_3 {
@@ -127,7 +153,6 @@ h1 {
     position: absolute;
     top: 495px;
     left: 615px; 
-    color: transparent;
     z-index: 0;
 }
 
@@ -141,10 +166,18 @@ h1 {
     font-size: 35px;
     position: relative;
     z-index: 1;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hover3 a {
+    color: transparent !important;
 }
 
 .hover3:hover {
-    background-color: orangered;
+    background-color: rgb(194, 78, 30);;
     color: white;
     text-align: center;
     vertical-align: middle;
@@ -152,6 +185,14 @@ h1 {
     transition: 1s;
 }
 
+.hover3:hover a {
+    color: white !important;
+    transition: 1s;
+}
+
+.fmr_link {
+    width: 100%;
+}
 
 .container_4 {
     width: 34.5%; 
@@ -164,7 +205,6 @@ h1 {
     position: absolute;
     top: 698px;
     left: 138px; 
-    color: transparent;
     z-index: 0;
 }
 
@@ -178,6 +218,14 @@ h1 {
     font-size: 35px;
     position: relative;
     z-index: 1;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hover4 a {
+    color: transparent !important;
 }
 
 .hover4:hover {
@@ -187,6 +235,15 @@ h1 {
     vertical-align: middle;
     font-size: 35px;
     transition: 1s;
+}
+
+.hover4:hover a {
+    color: white !important;
+    transition: 1s;
+}
+
+.ibu_link {
+    width: 100%;
 }
 
 .container_5 {
@@ -200,8 +257,45 @@ h1 {
     position: absolute;
     top: 1208px;
     left: 140px; 
-    color: transparent;
     z-index: -1;
+}
+
+.hover5 {
+    width: 35.1%; 
+    height: 660px;
+    margin-top: 42px; 
+    margin-left: 133px;
+    background-color: transparent;
+    color: transparent;
+    font-size: 35px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hover5 a {
+    color: transparent !important;
+}
+
+.hover5:hover {
+    background-color: rgb(178, 0, 0);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+    transition: 1s;
+}
+
+.hover5:hover a {
+    color: white !important;
+    transition: 1s;
+}
+
+.briquet_link {
+    width: 100%;
 }
 
 .container_6 {
@@ -215,8 +309,45 @@ h1 {
     position: absolute;
     top: 1255px;
     left: 615px;
-    color: transparent;
     z-index: 0;
+}
+
+.hover6 {
+    width: 42.5%; 
+    height: 390px;
+    margin-top: -567px; 
+    left: 607px;
+    margin-right: 150px; 
+    background-color: transparent;
+    font-size: 35px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hover6 a {
+    color: transparent !important;
+}
+
+.hover6:hover {
+    background-color: rgb(178, 0, 0);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+    transition: 1s;
+}
+
+.hover6:hover a {
+    color: white !important;
+    transition: 1s;
+}
+
+.secourspop_link {
+    width: 100%;
 }
 
 .site-navigation-left {
@@ -241,11 +372,6 @@ li {
     z-index: +9999;
     margin-top: -318px;
     font-size: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }
 
 .presentation {
