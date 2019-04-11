@@ -408,3 +408,17 @@ li {
 p2 {
     font-size: 12px;
 }
+
+.af_pic_1 {
+    width: 40%; 
+    height: 400px; 
+    background-image: url(../images/airfrancee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 150px; 
+    position: absolute;
+    top: 100px;
+    left: 315px;
+    z-index: 0;
+}
